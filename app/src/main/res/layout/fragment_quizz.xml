@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".ui.about.AboutFragment">
+  <ImageView
+    android:id="@+id/buttonX2"
+    android:layout_width="56dp"
+    android:layout_height="56dp"
+    android:layout_marginTop="50dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/space3"
+    app:layout_constraintTop_toBottomOf="@+id/answerText"
+    app:srcCompat="@drawable/x2" />
+  <ImageView
+    android:id="@+id/buttonX1"
+    android:layout_width="56dp"
+    android:layout_height="56dp"
+    android:layout_marginTop="50dp"
+    app:layout_constraintEnd_toStartOf="@+id/space3"
+    app:layout_constraintStart_toEndOf="@+id/space2"
+    app:layout_constraintTop_toBottomOf="@+id/answerText"
+    app:srcCompat="@drawable/x1" />
+  <ImageView
+    android:id="@+id/buttonX0"
+    android:layout_width="56dp"
+    android:layout_height="56dp"
+    android:layout_marginTop="50dp"
+    app:layout_constraintEnd_toStartOf="@+id/space"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/answerText"
+    app:srcCompat="@drawable/x0" />
+  <ImageView
+    android:id="@+id/buttonX12"
+    android:layout_width="56dp"
+    android:layout_height="56dp"
+    android:layout_marginTop="50dp"
+    app:layout_constraintEnd_toStartOf="@+id/space2"
+    app:layout_constraintStart_toEndOf="@+id/space"
+    app:layout_constraintTop_toBottomOf="@+id/answerText"
+    app:srcCompat="@drawable/x1_2" />
+  <ImageView
+    android:id="@+id/botType"
+    android:layout_width="195dp"
+    android:layout_height="66dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginEnd="75dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/vsIcon" />
+  <ImageView
+    android:id="@+id/vsIcon"
+    android:layout_width="195dp"
+    android:layout_height="66dp"
+    android:layout_marginTop="50dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/topType"
+    app:srcCompat="@mipmap/vsicon"
+    tools:srcCompat="@mipmap/vsicon" />
+  <ImageView
+    android:id="@+id/topType"
+    android:layout_width="195dp"
+    android:layout_height="66dp"
+    android:layout_marginTop="75dp"
+    android:layout_marginStart="75dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+  <Space
+    android:id="@+id/space2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="150dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+  <Space
+    android:id="@+id/space"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="150dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/space2"
+    app:layout_constraintStart_toStartOf="parent" />
+  <Space
+    android:id="@+id/space3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="150dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/space2" />
+  <TextView
+    android:id="@+id/answerText"
+    android:layout_width="365dp"
+    android:layout_height="45dp"
+    android:layout_marginTop="25dp"
+    android:fontFamily="monospace"
+    android:gravity="center|fill_vertical"
+    android:textSize="16sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/botType" />
+</androidx.constraintlayout.widget.ConstraintLayout>

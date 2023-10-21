@@ -1,4 +1,4 @@
-package com.example.pkmn_quizz
+package com.omega.pkmn_quizz
 
 import org.junit.Test
 

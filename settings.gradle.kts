@@ -15,4 +15,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "pkmn-quizz"
 include(":app")
- 

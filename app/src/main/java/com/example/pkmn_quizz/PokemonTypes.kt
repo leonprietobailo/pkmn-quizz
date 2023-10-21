@@ -1,20 +1,22 @@
 package com.example.pkmn_quizz
 
 enum class PokemonTypes(val imageSrc : Int) {
+    STEEL(R.mipmap.steel),
+    WATER(R.mipmap.water),
     BUG(R.mipmap.bug),
-    DARK(R.mipmap.dark),
     DRAGON(R.mipmap.dragon),
     ELECTRIC(R.mipmap.electric),
-    FAIRY(R.mipmap.fairy),
-    FIGHTING(R.mipmap.fighting),
     GHOST(R.mipmap.ghost),
-    GRASS(R.mipmap.grass),
-    GROUND(R.mipmap.ground),
+    FIRE(R.mipmap.fire),
+    FAIRY(R.mipmap.fairy),
     ICE(R.mipmap.ice),
+    FIGHTING(R.mipmap.fighting),
     NORMAL(R.mipmap.normal),
-    POISON(R.mipmap.poison),
+    GRASS(R.mipmap.grass),
     PSYCHIC(R.mipmap.psychic),
     ROCK(R.mipmap.rock),
-    STEEL(R.mipmap.steel),
-    WATER(R.mipmap.water)
+    DARK(R.mipmap.dark),
+    GROUND(R.mipmap.ground),
+    POISON(R.mipmap.poison),
+    FLYING(R.mipmap.flying)
 }

@@ -11,4 +11,5 @@ class QuizViewModel : ViewModel() {
 
     }
     val text: LiveData<String> = _text
+
 }

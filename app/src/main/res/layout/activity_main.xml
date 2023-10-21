@@ -7,12 +7,25 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:id="@+id/textView"
+        android:layout_width="340dp"
+        android:layout_height="196dp"
+        android:fontFamily="monospace"
+        android:gravity="fill"
+        android:text="Welcome to PKMN Quizz. This is a sample app developed for learning purposes. With this software, you will be able to train your Pokemon skills and learn the table of types.\n\nQuizz itself might be wrong due to possible mistakes importing data.\n\nFor any inquiries, email me at:\nleonprietobailo@gmail.com"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="149dp"
+        android:layout_height="71dp"
+        android:text="START"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
